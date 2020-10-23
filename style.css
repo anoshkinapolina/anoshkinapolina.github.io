@@ -1,0 +1,705 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1366px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    float: left;
+    margin-top: 30px;
+    width: 300px;
+    height:98px;
+    
+}
+
+.menu ul {
+list-style-type: none;
+    margin-left: 500px;
+}
+
+
+.menu-buttons {
+    float:left;
+    margin-top: 54px;
+    margin-left: 30px;
+    
+}
+
+.menu-buttons a {
+    text-decoration: none;
+    color: #8c8c8c;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 48px;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+}
+
+.menu-buttons a:hover {
+    color: #006666;
+    font-weight: 700;
+    border-bottom: 2px solid #006666;
+}
+
+.menu-buttons a: active {
+     text-decoration: none;
+    color: #8c8c8c;
+    font-size: 14px;
+}
+
+.main-part {
+    margin-top: 90px;
+    min-height: 280px;
+}
+
+.prod-inf-h3 {
+    color: #212121;
+font-size: 36px;
+font-weight: 700;
+    text-align: center;
+}
+
+.slider-content {
+    color: #6c6c6c;
+font-size: 14px;
+font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 24px;
+}
+
+.explore a {
+    color: #212121;
+font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+text-transform: uppercase;
+letter-spacing: 3.6px;
+    text-decoration: none;
+}
+
+
+.explore {
+    float: right;
+    margin-right: 97px;
+    margin-top: -25px;
+}
+
+.trendingProducts {
+    height: 500px; 
+}
+
+.trendingImages ul {
+    list-style-type: none;
+}
+
+.trendHeading {
+    color: #212121;
+font-size: 36px;
+font-weight: 700;
+    margin-top: 119px;
+    margin-left: 98px;
+}
+
+.trendExplore {
+    float: right;
+    color: #212121;
+font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+text-transform: uppercase;
+letter-spacing: 3.6px;
+    margin-right: 97px;
+    margin-top: -30px;
+}
+
+.trendingImg-line1 {
+    float: left;
+    margin-top: 64px;
+    margin-left: 30px;
+}
+
+.trendingImg-line1:hover {
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+}
+
+.trendingImg-line1 img {
+    width: 270px;
+    height: 270px;
+}
+
+
+.trendingImages ul {
+    margin-left: 68px;
+}
+
+.footer {
+    height: 384px;
+    background-image: url(img/footer.jpg);
+    position: relative;
+   padding-left: 97px; 
+}
+
+.footer ul  {
+    list-style-type: none;
+}
+
+.footer-menu {
+    color: #6c6c6c;
+font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+text-transform: uppercase;
+letter-spacing: 1.8px;
+}
+
+.footer-inf-menu a {
+    text-decoration:none;
+    color: #212121;
+font-size: 14px;
+font-weight: 700;
+line-height: 26px;
+text-transform: uppercase;
+letter-spacing: 0.7px;
+}
+
+
+.footer-subscr p {
+    color: #212121;
+font-size: 14px;
+font-weight: 300;
+line-height: 22px;
+    margin-bottom: 15px;
+        float: right;
+    /* margin-left: 95px; */
+    width: 400px;
+    margin-right: -130px;
+}
+
+.footer-address {
+    color: #212121;
+font-size: 14px;
+font-weight: 300;
+line-height: 22px;
+    height: 102px;
+    width: 221px;
+    float: left;
+    position: absolute;
+    margin-top: 157px;
+}
+
+
+.copyright {
+    color: #6c6c6c;
+font-size: 12px;
+font-weight: 700;
+line-height: 26px;
+text-transform: uppercase;
+letter-spacing: 0.6px;
+}
+
+.copyright1 {
+    color: #6c6c6c;
+font-size: 12px;
+font-weight: 700;
+line-height: 26px;
+text-transform: uppercase;
+letter-spacing: 0.6px;
+}
+
+input [type="text"] {
+    height: 48px;
+    width: 370px;
+    font-size: 14px;
+font-weight: 300;
+line-height: 22px; 
+}
+
+.stay-with-us {
+    margin-left: 350px;
+}
+
+
+.exclImg1 {
+    float: right;
+    margin-top: 120px;
+}
+
+.exclImg1 li:first-child {
+    margin-bottom: 25px;
+}
+
+.socialLinks {
+    width: 129px;
+    height: 28px;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 140px;
+}
+
+.footer-menu {
+    float: left;
+    margin-top: 120px;
+}
+
+.footer-menu:first-child {
+    margin-right: 168px;
+    
+}
+
+.footer-menu:nth-child(2) {
+     margin-right: 263px;
+}
+
+.footer-m {
+    position: absolute;
+}
+
+.footer-address a {
+    text-decoration: none;
+    color: #212121;
+}
+
+.footer-subscr {
+    height: 36px;
+    width:363px;
+    float: right;
+    margin-top: 157px;
+    margin-right: 260px;
+}
+
+.email {
+    width: 370px;
+    height: 48px;
+    margin-top: 235px;
+    margin-left: 740px; 
+    position: absolute;
+}
+
+input [type="text"] {
+    font-size: 14px;
+font-weight: 300;
+line-height: 22px;
+   
+}
+
+#name {
+    width: 320px;
+    height: 48px;
+    color: #6c6c6c;
+     border: 1px solid #6c6c6c;
+    border-right: none;
+}
+
+.copyright {
+    height: 9px;
+    width: 362px;
+    float: left;
+    margin-top: 320px;
+}
+
+.copyright1 {
+    position: absolute;
+    float:right;
+    margin-top: 320px;
+    margin-left: 800px;
+}
+
+.footer {
+    height: 384px;
+}
+
+.logo {
+    margin-left: 98px;
+}
+
+.heading-contacts {
+    color: #212121;
+font-size: 62px;
+font-weight: 400;
+line-height: 72px;
+  margin-left: 101px;
+    margin-top: 158px;
+    height: 43px;
+}
+
+.city {
+    color: #212121;
+font-size: 22px;
+font-weight: 700;
+line-height: 29.88px;
+text-transform: uppercase;
+}
+
+.heading-ad {
+    color: #6c6c6c;
+font-size: 14px;
+font-weight: 700;
+line-height: 20px;
+}
+
+.add {
+    color: #212121;
+font-weight: 700;
+    text-decoration: none;
+}
+
+.contact-address {
+    font-weight: 300;
+    color: #6c6c6c;
+}
+
+.address {
+    width: 370px;
+    height: 370px;
+    border: 1px solid #9c9c9c;
+    margin-top: 71px;
+    float: left;
+    margin-left: 30px;
+}
+
+.city {
+    margin-top: 34px;
+    margin-left: 117px;
+}
+
+.text-address {
+    text-align: center;
+    margin-top: 23px;
+}
+
+.main-address {
+    min-height: 563px;
+    margin-left: 68px;
+}
+
+.explore a:hover {
+    font-weight: 700;
+    border-bottom: 2px solid black;
+}
+
+.product-menu ul {
+    list-style-type: none;
+}
+
+.product-range {
+min-height: 1300px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 55px;
+    }
+
+.product-range ul {
+    list-style: none;
+}
+
+.product-range-img {
+    height: 370px;
+    width: 370px;
+    float: left;
+    margin: 15px 15px;
+}
+
+.product-range-img:hover {
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+}
+
+.product-range-img img {
+    width: 370px;
+}
+
+.product-str {
+    padding-top: 30px;
+    margin-left: 574px;
+}
+
+
+.prod-information {
+    min-height: 800px;
+    padding-left: 98px;
+}
+
+
+.prod-inf-img {
+    width: 570px;
+    height: 570px;
+    float: left;
+    margin-top: 72px;
+}
+
+.prod-inf-img a:hover {
+     box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+}
+
+.prod-inf-text {
+float: right;
+    margin-top: 119px;
+}
+
+.prod-inf-HotDeal {
+    color: #e53935;
+font-size: 18px;
+font-weight: 700;
+line-height: 48.02px;
+text-transform: uppercase;
+letter-spacing: 1.8px;
+    text-align: center;
+}
+
+.prod-price {
+    color: #212121;
+font-size: 36px;
+font-weight: 300;
+line-height: 48.02px;
+/* Text style for "" */
+font-size: 48px;
+/* Text style for "36.7" */
+font-size: 72px;
+text-transform: uppercase;
+    text-align: center;
+    margin-top: 36px;
+}
+
+
+.relatedProd {
+    height: 590px;
+    padding-left: 100px;
+}
+
+.relatedProd-heading {
+    color: #212121;
+font-size: 36px;
+font-weight: 700;
+    margin-bottom: 71px;
+
+}
+
+.relatedProd-img {
+    float: left;
+    margin-left:-30px;
+    
+}
+
+.relatedProd-img1 {
+    float: left;
+    margin-left: 30px;
+}
+
+.relatedProd-img1:hover {
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+}
+
+.trendExplore1 a {
+    text-decoration: none;
+    color: #212121;
+font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+text-transform: uppercase;
+letter-spacing: 3.6px;
+    margin-right: 97px;
+    margin-right: 20px;
+    float: right;
+    margin-top: -105px;
+}
+
+.trendExplore1 a:hover {
+    color: #6c6c6c;
+}
+
+.relatedProd-img ul {
+    list-style: none;
+    float: right;
+}
+
+.list {
+    margin-bottom: 20px;
+    line-height: 24px;
+    list-style-image: url(img/icon.png);
+}
+
+.prod-inf-content {
+    color: #212121;
+font-size: 16px;
+font-weight: 300;
+line-height: 24.01px;
+letter-spacing: 0.4px;
+width: 499px;
+    line-height: 24px;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+.main-slider-wedding {
+    height: 350px;
+    background: url(img/weddingBackground.png);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.wedding-content-p {
+    text-align: left;
+    padding-top: 10px;
+    font-weight: 700;
+    padding-left: 40px;
+}
+
+.wedding-content {
+    padding-top: 70px;
+}
+
+table {
+    border: 2px solid #006666;
+    width: 1200px;
+    height: 300px;
+    margin: auto;
+    border-spacing: inherit;
+}
+
+td {
+    border: 1px solid #006666;
+    text-align: center;
+    width: 400px;
+}
+
+td ul {
+    text-align: left;
+    list-style: none;
+    list-style-image: url(img/icon.png);
+    font: 16px;
+    line-height: 18px;
+    padding-left: 20px;
+}
+
+
+tr:last-child,
+tr:first-child {
+    font-size: 20px;
+    color: #B94F6D;
+    font-weight: 700;
+    height: 50px;
+}
+tr:nth-child(2) {
+   font-size: 18px;
+    font-weight: bold;
+    height: 50px;
+}
+
+tr:first-child {
+    height: 45px;
+}
+
+.contactForm {
+    margin-top: 15px;
+    text-align: center
+}
+#name1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 30px;
+}
+
+#email {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 30px;
+}
+
+#phone {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 30px;
+}
+
+#request {
+    padding-top: 5px;
+    padding-left: 5px;
+    resize: none;
+}
+
+#button {
+    text-align: center;
+    font-weight: 700;
+    height: 25px;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid #666;
+    font-family: Montserrat;
+}
+
+.wedding-table {
+    background: url(img/border-background.jpg);
+}
+
+.wedding-appl {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.wedding-appl a {
+    text-decoration: none;
+    color: #212121;
+font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+text-transform: uppercase;
+letter-spacing: 3.6px;
+}
+
+.wedding-appl a:hover {
+    color: #6c6c6c;
+}
+
+.email input[type="submit"] {
+    width: 50px;
+    height: 50px;
+    background: url(img/plane.png) no-repeat 50%;
+    float: right;
+    margin-right: -1px;
+    border: 1px solid #6c6c6c;
+    border-left: none;
+    
+}
+
+.main-part {
+    margin-bottom: 50px;
+}
+
+.task1,
+.task2 {
+    color: #212121;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24.01px;
+    letter-spacing: 0.4px;
+    width: 900px;
+    line-height: 24px;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.task2 a {
+    text-decoration: none;
+    color: #8c8c8c;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+}
